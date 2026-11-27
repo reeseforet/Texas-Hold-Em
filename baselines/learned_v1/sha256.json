@@ -1,0 +1,11 @@
+{
+  "learned_experiment.py": "5095fd56e3ee8f645f2d71c0cb86c3a7485495a33f0ffdc594715a2664401bf7",
+  "bot.py": "3ae75494150f15566a72e04826e58d596f24ecbe3a8873e5397bdbd21fcacfb9",
+  "equity.py": "787291a78ab503e814d95e02ea67aae3596f4e50d17c8ac864939bad425e7909",
+  "ev.py": "80842417aac9144ca34433f59edac8164b6f32bb6251a4b2701d4df292916abf",
+  "opponent_model.py": "3f81cef0bad1383640641454f51468022fbc69cffebf9742b80da304e0389aaa",
+  "match.py": "1504c38b26bcd2d85fbb6f313874e059ed13cfbbbab38db3020047eb060423f1",
+  "benchmark.py": "19f4e3664392b8f7cd3291fa84d6fc294b7c3a51f5fdb36d7e5b58bbc4aec79e",
+  "strategy.json": "c902d630379b67b4d412a916a209002a29ea63b3ee8fa499c0cbae0f56b2cb75",
+  "experiments/learned-overnight-001/model.json": "61503a04e4ef47c4521406357d54c0e66b3a47f01e3a8e7a8bbfbdb3cb5b9b55"
+}

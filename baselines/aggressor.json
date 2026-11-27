@@ -1,0 +1,7 @@
+{
+  "source": "aggressor-frozen",
+  "raise_at": 0.34,
+  "call_margin": -0.02,
+  "raise_fraction": 0.75,
+  "preflop_floor": 0.12
+}

@@ -1,0 +1,7 @@
+{
+  "source": "evolved-gen-94-frozen",
+  "raise_at": 0.234,
+  "call_margin": 0.065,
+  "raise_fraction": 1.25,
+  "preflop_floor": 0.187
+}

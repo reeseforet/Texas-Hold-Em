@@ -1,0 +1,11 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# macOS metadata
+.DS_Store
+
+# Raw logs and generated models from experiments
+/experiments/**/*.jsonl
+/experiments/**/*.joblib
+/legacy-poker.zip

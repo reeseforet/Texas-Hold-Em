@@ -1,0 +1,236 @@
+{
+  "demo/control": {
+    "matches": 12,
+    "chips": -49.583333333333336,
+    "paired_gain": 0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "first": 0.25,
+    "eliminated": 0.5,
+    "early_shove_matches": 0,
+    "early_shoves": 0,
+    "first_hand_busts": 2,
+    "eliminated_with_early_shove": 0,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 304.82
+  },
+  "demo/always-call": {
+    "matches": 12,
+    "chips": 590,
+    "paired_gain": 639.5833333333334,
+    "ci95": [
+      -1036.0918211366734,
+      2315.2584878033404
+    ],
+    "first": 0.25,
+    "eliminated": 0.6666666666666666,
+    "early_shove_matches": 7,
+    "early_shoves": 7,
+    "first_hand_busts": 5,
+    "eliminated_with_early_shove": 6,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 56.79
+  },
+  "demo/observed-folds": {
+    "matches": 12,
+    "chips": -343.75,
+    "paired_gain": -294.1666666666667,
+    "ci95": [
+      -592.0580266005062,
+      3.7246932671728246
+    ],
+    "first": 0.08333333333333333,
+    "eliminated": 0.5833333333333334,
+    "early_shove_matches": 0,
+    "early_shoves": 0,
+    "first_hand_busts": 1,
+    "eliminated_with_early_shove": 0,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 304.36
+  },
+  "demo/position": {
+    "matches": 12,
+    "chips": -2.25,
+    "paired_gain": 47.333333333333336,
+    "ci95": [
+      -13.679204738936711,
+      108.34587140560339
+    ],
+    "first": 0.16666666666666666,
+    "eliminated": 0.4166666666666667,
+    "early_shove_matches": 0,
+    "early_shoves": 0,
+    "first_hand_busts": 0,
+    "eliminated_with_early_shove": 0,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 302.77
+  },
+  "demo/deep-shove": {
+    "matches": 12,
+    "chips": -94.16666666666667,
+    "paired_gain": -44.583333333333336,
+    "ci95": [
+      -278.9107841733314,
+      189.74411750666476
+    ],
+    "first": 0.16666666666666666,
+    "eliminated": 0.5,
+    "early_shove_matches": 0,
+    "early_shoves": 0,
+    "first_hand_busts": 2,
+    "eliminated_with_early_shove": 0,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 307.1
+  },
+  "demo/realization": {
+    "matches": 12,
+    "chips": -61.666666666666664,
+    "paired_gain": -12.083333333333334,
+    "ci95": [
+      -1185.9503061947164,
+      1161.78363952805
+    ],
+    "first": 0.08333333333333333,
+    "eliminated": 0.4166666666666667,
+    "early_shove_matches": 0,
+    "early_shoves": 0,
+    "first_hand_busts": 0,
+    "eliminated_with_early_shove": 0,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 263.3
+  },
+  "demo/survival": {
+    "matches": 12,
+    "chips": 281.25,
+    "paired_gain": 330.8333333333333,
+    "ci95": [
+      19.65128018434433,
+      642.0153864823224
+    ],
+    "first": 0.25,
+    "eliminated": 0.3333333333333333,
+    "early_shove_matches": 0,
+    "early_shoves": 0,
+    "first_hand_busts": 1,
+    "eliminated_with_early_shove": 0,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 317.63
+  },
+  "mixed/control": {
+    "matches": 12,
+    "chips": -418.4166666666667,
+    "paired_gain": 0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "first": 0.16666666666666666,
+    "eliminated": 0.75,
+    "early_shove_matches": 2,
+    "early_shoves": 2,
+    "first_hand_busts": 3,
+    "eliminated_with_early_shove": 2,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 137.78
+  },
+  "mixed/observed-folds": {
+    "matches": 12,
+    "chips": 39.166666666666664,
+    "paired_gain": 457.5833333333333,
+    "ci95": [
+      16.26605560309042,
+      898.9006110635762
+    ],
+    "first": 0.25,
+    "eliminated": 0.5,
+    "early_shove_matches": 0,
+    "early_shoves": 0,
+    "first_hand_busts": 3,
+    "eliminated_with_early_shove": 0,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 123.77
+  },
+  "mixed/position": {
+    "matches": 12,
+    "chips": -144.25,
+    "paired_gain": 274.1666666666667,
+    "ci95": [
+      -473.7039548591519,
+      1022.0372881924852
+    ],
+    "first": 0.25,
+    "eliminated": 0.5833333333333334,
+    "early_shove_matches": 1,
+    "early_shoves": 1,
+    "first_hand_busts": 3,
+    "eliminated_with_early_shove": 1,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 121.89
+  },
+  "mixed/deep-shove": {
+    "matches": 12,
+    "chips": -89.41666666666667,
+    "paired_gain": 329,
+    "ci95": [
+      -471.0794627656643,
+      1129.0794627656642
+    ],
+    "first": 0.16666666666666666,
+    "eliminated": 0.5,
+    "early_shove_matches": 2,
+    "early_shoves": 3,
+    "first_hand_busts": 3,
+    "eliminated_with_early_shove": 1,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 101.88
+  },
+  "mixed/realization": {
+    "matches": 12,
+    "chips": -189.66666666666666,
+    "paired_gain": 228.75,
+    "ci95": [
+      -366.2611381310437,
+      823.7611381310437
+    ],
+    "first": 0.16666666666666666,
+    "eliminated": 0.5,
+    "early_shove_matches": 1,
+    "early_shoves": 1,
+    "first_hand_busts": 1,
+    "eliminated_with_early_shove": 1,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 121.06
+  },
+  "mixed/survival": {
+    "matches": 12,
+    "chips": 2.6666666666666665,
+    "paired_gain": 421.0833333333333,
+    "ci95": [
+      -236.50733086085478,
+      1078.6739975275214
+    ],
+    "first": 0.25,
+    "eliminated": 0.3333333333333333,
+    "early_shove_matches": 1,
+    "early_shoves": 1,
+    "first_hand_busts": 3,
+    "eliminated_with_early_shove": 1,
+    "invalid": 0,
+    "timeouts": 0,
+    "p95_ms": 114.31
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "raise_at": 0.299,
+  "call_margin": 0.02,
+  "raise_fraction": 1.242,
+  "preflop_floor": 0.255,
+  "source": "overnight-gen-97"
+}
