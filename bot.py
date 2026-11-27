@@ -3,6 +3,7 @@ import asyncio
 import json
 import websockets
 from strategy import choose_strategy
+from betting_tracker import BettingTracker
 
 #Our bots name and ID 
 MY_ID = "groupM-poker-bot"
@@ -63,6 +64,7 @@ def choose_action(state):
 
 # Connect to the poker server using WebSockets
 async def main():
+    tracker = BettingTracker()
     uri = "ws://localhost:8000/ws"
 
     async with websockets.connect(uri) as websocket:
@@ -90,6 +92,23 @@ async def main():
                 print("Game phase:", state["phase"])
                 print("Pot:", state["pot"])
                 print("Current turn:", state["current_turn"])
+
+            if data["type"] == "state":
+                state = data["payload"]
+
+                print("Game phase:", state["phase"])
+                print("Pot:", state["pot"])
+                print("Current turn:", state["current_turn"])
+
+                # Update our betting tracker
+                betting_info = tracker.update(state)
+
+                print("Betting tracker:")
+                print("  Current bet:", betting_info["current_bet"])
+                print("  Minimum raise estimate:", betting_info["minimum_raise"])
+                print("  Can raise estimate:", betting_info["can_raise"])
+                print("  Raise info reliable:", betting_info["raise_info_reliable"])
+
 
                 me = next(p for p in state["players"] if p["id"] == MY_ID)
 
@@ -126,6 +145,13 @@ async def main():
             # Check whether the server accepted our action
             elif data["type"] == "action_result":
                 result = data["payload"]
+
+                # Only record actions confirmed by the server
+                if result["ok"] and last_sent is not None:
+                    tracker.record_our_action(last_sent)
+                    print("Confirmed action recorded:", last_sent)
+                    last_sent = None
+
 
                 # If our action was rejected, print the error
                 if not result["ok"]:
